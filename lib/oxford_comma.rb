@@ -4,6 +4,5 @@ def oxford_comma(string_elements)
   puts value
   value.pop
   value << "and salad"
-end
   return value
 end
