@@ -1,6 +1,5 @@
 def oxford_comma(string_elements)
-  ["spaghetti", "meatballs", "salad"].join
-  value = "spaghetti, meatballs, salad"
+  value = ["spaghetti", "meatballs", "salad"].join
   puts value
   value.pop
   value << "and salad"
