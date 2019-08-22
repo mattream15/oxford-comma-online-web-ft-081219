@@ -8,6 +8,7 @@ def oxford_comma(array)
        binding.pry 
 
    x = ", and #{array.pop}"
+   array.join(", ") + x
 end
 #   binding.pry 
 #   fruit = []
