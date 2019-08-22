@@ -1,5 +1,5 @@
 def oxford_comma(string_elements)
   ["spaghetti"].join
-  #value = ["spaghetti", "meatballs", "salad"].join(", ")
+  ["spaghetti"] << "meatballs", "salad"
   #value.insert(2, "and")
 end
