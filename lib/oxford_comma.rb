@@ -1,4 +1,6 @@
+require "pry"
 def oxford_comma(array)
+  binding.pry 
   fruit = []
   [].join
 p fruit
