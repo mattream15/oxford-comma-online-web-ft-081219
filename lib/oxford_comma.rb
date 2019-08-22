@@ -3,4 +3,4 @@ def oxford_comma(string_elements)
 end
 
 def oxford_comma2(string_elements)
-  ["kiwi", "strawberries"].value
+  ["kiwi", "strawberries"].insert(1, " and ")
