@@ -1,4 +1,4 @@
-def oxford_comma(array).join
+def oxford_comma(array)
   fruit = []
   [].join
 p fruit
