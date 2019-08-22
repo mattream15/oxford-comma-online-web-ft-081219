@@ -1,6 +1,6 @@
 def oxford_comma(fruit)
-  #single = ["kiwi"].join
-# single
+  single = ["kiwi"].join
+p single
 end
 def oxford_comma(fruits)
 double = ["kiwi", "strawberries"].join.insert(4, " and ")
