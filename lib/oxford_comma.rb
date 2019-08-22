@@ -1,9 +1,13 @@
 require "pry"
 def oxford_comma(array)
-  array.join
-  if array <= 1
+  if array.count <= 1
     array.join
-    elsif array == 2
+  elsif array.count == 2
+    
+  elsif array.count == 3
+    
+  else
+end
 #   binding.pry 
 #   fruit = []
 #   [].join
