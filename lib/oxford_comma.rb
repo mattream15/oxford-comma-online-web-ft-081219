@@ -3,7 +3,7 @@ def oxford_comma(string_elements)
 p single
 end
 double = ["kiwi", "strawberries"].join.insert(4, " and ")
-p string_elements
+p double
 end
 
 #def oxford_comma2(string_elements)
