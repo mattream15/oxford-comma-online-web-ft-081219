@@ -7,4 +7,4 @@ def oxford_comma(array)
 # p fruit
 # fruit = ["kiwi", "strawberries"].join.insert(4, " and ")
 # p fruit
-# end
+end
