@@ -5,8 +5,9 @@ def oxford_comma(array)
   elsif array.count == 2
     array.join(" and ")
   else
+       binding.pry 
+
    x = ", and #{array.pop}"
-   binding.pry 
 end
 #   binding.pry 
 #   fruit = []
