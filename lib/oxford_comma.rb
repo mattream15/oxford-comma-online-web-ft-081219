@@ -4,9 +4,8 @@ def oxford_comma(array)
     array.join
   elsif array.count == 2
     array.join(" and ")
-  elsif array.count == 3
-    array.join(1, ", and ")
   else
+    array.pop.shift(", and")
 end
 #   binding.pry 
 #   fruit = []
