@@ -1,4 +1,4 @@
 def oxford_comma(array)
-["spaghetti", "meatballs", "salad"] << "and"
+italian_dinner = ["spaghetti", "meatballs", "salad"] << "and"
 
 end
