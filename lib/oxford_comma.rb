@@ -3,3 +3,4 @@ def oxford_comma(string_elements)
 end
   value.insert(2, "and")
 end
+end
