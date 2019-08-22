@@ -6,6 +6,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
    x = array.pop.shift(", and")
+   binding.pry 
 end
 #   binding.pry 
 #   fruit = []
